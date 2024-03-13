@@ -59,6 +59,7 @@
             })
             .catch(function (error){
                 document.querySelector(".status").innerHTML = `Status: <span style="color: red;">Error</span> - Message: <span style="color: red;"> Unexpected token </span>`;
+                console.error('error');
             });
     });
     </script>
